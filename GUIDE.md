@@ -9,6 +9,15 @@ meteoric:ionicons-sass
 meteoric:ionic
 ```
 
+## Styles
+
+Import the Ionic stylesheets in a Sass file (eg `client/sass/main.scss`:
+
+```sass
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic';
+@import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/ionicons';
+```
+
 ## Blaze Templates
 
 `meteor-ionic` makes extensive use of Blaze Templates. There are two ways to include a Blaze Template into your page: inclusion syntax and block syntax.
